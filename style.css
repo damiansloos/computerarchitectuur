@@ -96,13 +96,15 @@ header {
 }
 
 .textarea {
-    margin-left: 25%;
-    margin-right: 25%;
-    padding-left: 2.5%;
-    padding-right: 5%;
+    position: relative;
+    position: left 0%;
+    max-width: 45.5%;
+    padding-left: 2%;
+    padding-right: 2.5%;
     padding-bottom: 1%;
     padding-top: 1%;
-    background-color: #37aea3;
+    margin-bottom: 5%;
+    background-color: #207971;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
 }
 
