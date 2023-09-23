@@ -83,6 +83,17 @@ nav a1:hover {
     text-decoration: none;
     padding: 1rem 1rem;
 }
+
+a2 {
+    color: #37aea3; /* blue */
+    text-decoration: none;
+}
+
+a2:hover {
+    color: #ff0000; /* blue */
+    text-decoration: none;
+}
+
 body {
   margin: 0;
   padding: 0;
