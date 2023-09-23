@@ -95,6 +95,17 @@ header {
     padding-bottom: 0.5%;
 }
 
+.textarea {
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-left: 2.5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    background-color: #37aea3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+}
+
 .footer {
     position: fixed;
     bottom: 0%;
