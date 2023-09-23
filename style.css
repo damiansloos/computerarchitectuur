@@ -87,3 +87,9 @@ nav a1:hover {
     padding-top: 1%;
     padding-bottom: 1%
 }
+
+header {
+    background-color: #207971; /* blue */
+    text-align: center;
+    padding: 2rem 0;
+}
