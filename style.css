@@ -84,6 +84,12 @@ nav a1:hover {
     padding: 1rem 1rem;
 }
 
+header {
+    background-color: #207971; /* blue */
+    text-align: center;
+    padding: 0 0;
+}
+
 .footer {
     position: fixed;
     bottom: 0%;
@@ -94,10 +100,4 @@ nav a1:hover {
     text-align: center;
     padding-top: 1%;
     padding-bottom: 1%
-}
-
-header {
-    background-color: #207971; /* blue */
-    text-align: center;
-    padding: 1rem 0;
 }
