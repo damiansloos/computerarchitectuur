@@ -42,6 +42,12 @@ nav a {
     padding: 2rem 4rem;
 }
 
+nav a:hover {
+    color: #ff0000; /* red */
+    text-decoration: none;
+    padding: 2rem 4rem;
+}
+
 .footer {
     position: fixed;
     bottom: 0%;
