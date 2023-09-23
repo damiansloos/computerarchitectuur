@@ -91,7 +91,8 @@ body {
 header {
     background-color: #207971; /* blue */
     text-align: center;
-    padding: 5% 0;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
 
 .footer {
