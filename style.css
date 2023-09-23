@@ -83,6 +83,10 @@ nav a1:hover {
     text-decoration: none;
     padding: 1rem 1rem;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
 
 header {
     background-color: #207971; /* blue */
