@@ -84,12 +84,12 @@ nav a1:hover {
     padding: 1rem 1rem;
 }
 
-a2 {
+a {
     color: #37aea3; /* blue */
     text-decoration: none;
 }
 
-a2:hover {
+a:hover {
     color: #ff0000; /* blue */
     text-decoration: none;
 }
