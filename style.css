@@ -106,6 +106,14 @@ header {
     padding-bottom: 0.5%;
 }
 
+p {
+  padding-bottom: 0.5%;
+}
+
+h2 {
+  padding-bottom: 0.5%;
+}
+
 .textarea {
     position: relative;
     position: left 0%;
