@@ -182,11 +182,11 @@ position: absolute;
 }
 
 .vid4 {
-    width: 80%%;
-    height: 60%;
+    width: 60%%;
+    height: 20%;
 object-fit: scale-down;
 position: absolute;
-    top: 20%;
+    top: 10%;
     right: 0%;
     left: 115%;
 }
