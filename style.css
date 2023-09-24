@@ -5,11 +5,12 @@
   border: none;
   cursor: pointer;
 }
-
+/* dit is de button vor het dropdownmenu, hier staat normaal gesproken 3-lagenmodel in */
 .dropdown {
   position: relative;
   display: inline-block;
 }
+/* Dit is de positie die het dropdownmenu krijgt samen met de vorm ervan */
 
 .dropdown-content {
   display: none;
@@ -20,6 +21,7 @@
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
+/* als de content in de dropdown geen link is krijgt het deze waarden */
 
 .dropdown-content a {
   color: #37aea3;
@@ -28,6 +30,7 @@
   text-decoration: none;
   display: block;
 }
+/* als de content in de dropdown een link is krijgt het deze waarden */
 
 .dropdown-content a:hover {
   color: #ff0000;
@@ -36,6 +39,7 @@
   text-decoration: none;
   display: block;
 }
+/* als de content in de dropdown een link is en je hover er over heen krijgt het deze waarden */
 
 .dropdown-content a1 {
   color: #23e400;
@@ -45,6 +49,9 @@
   display: block;
 }
 
+/* als de content in de dropdown een a1 link is dan krijgt het deze waarden, de a1 link gebruik ik als actieve link.
+als je dus op die betreffende pagina zit zal het link element van die pagina, terwijl je op die pagina zit a1 zijn */
+
 .dropdown-content a1:hover {
   color: #ff0000;
   background-color: #000;
@@ -53,9 +60,14 @@
   display: block;
 }
 
+/* als de content in de dropdown een a1 link is en je hovert er overheen dan krijgt het deze waarden, de a1 link gebruik ik als actieve link.
+als je dus op die betreffende pagina zit zal het link element van die pagina, terwijl je op die pagina zit a1 zijn */
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+/* een van de belangrijkste regels code, als je over de dropdown button hovert dan wordt de dropdown content ge displayed */
 
 nav {
     background-color: #000;
@@ -63,11 +75,15 @@ nav {
     text-align: center;
 }
 
+/* de layout voor de nav */
+
 nav a {
     color: #37aea3; /* blue */
     text-decoration: none;
     padding: 1rem 1rem;
 }
+
+/* layout voor de links in de nav */
 
 nav a:hover {
     color: #ff0000; /* red */
@@ -75,11 +91,15 @@ nav a:hover {
     padding: 1rem 1rem;
 }
 
+/* layout voor de links in de nav als je er overheen hovert */
+
 nav a1 {
     color: #23e400; /* green */
     text-decoration: none;
     padding: 1rem 1rem;
 }
+
+/* layout voor de actieve link in de nav */
 
 nav a1:hover {
     color: #ff0000; /* red */
@@ -87,15 +107,21 @@ nav a1:hover {
     padding: 1rem 1rem;
 }
 
+/* layout voor de actieve link in de nav als je er overheen hovert */
+
 a {
     color: #37aea3; /* blue */
     text-decoration: none;
 }
 
+/* dit is voor een link buiten de nav */
+
 a:hover {
     color: #ff0000; /* blue */
     text-decoration: none;
 }
+
+/* en dit is voor de link buiten de nav als je er overheen hovert */
 
 body {
   background-color: #145a54;
@@ -103,12 +129,16 @@ body {
   padding: 0;
 }
 
+/* opmaak van de body, ook best belangrijk, anders krijg je een lelijke rand om je header heen */
+
 header {
     background-color: #207971; /* blue */
     text-align: center;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
 }
+
+/* de header, dit gebruik ik als soort titel voor de pagina */
 
 .textarea {
     position: relative;
@@ -124,6 +154,8 @@ header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
 }
 
+/* in de div met class="textarea" zet ik alle content, dit is dus de main opmaak voor de content die er instaat, afwijkingen hierop krijgen aparte opmaak, zoals p1 */
+
 .footer {
     position: fixed;
     bottom: 0%;
@@ -136,19 +168,27 @@ header {
     padding-bottom: 2%
 }
 
+/* de code voor de opmaak van de footer */
+
 h2 {
   margin-bottom: -1.5%;
   margin-top: .5%;
 }
+
+/* code voor de opmaak van de h2 element */
 
 p {
   padding-top: 0%;
   padding-bottom: 2.5%;
 }
 
+/* code voor opmaak van de paragraaf element */
+
 p1 {
   padding-left: 5%;
 }
+
+/* zoals je ziet heeft dit element een iets andere opmaak, en dat heeft een rede, het is een uitzondering op de rest */
 
 .afb1 {
     width: 100%;
@@ -161,6 +201,8 @@ position: absolute;
     z-index: -1;
 }
 
+/* De positionering en opmaak voor de afbeelding */
+
 .vid2 {
     width: 100%;
     height: 100%;
@@ -170,6 +212,8 @@ position: absolute;
     right: 0%;
     left: 100%;
 }
+
+/* positionering en opmaak voor het filmpje */
 
 .vid3 {
     width: 80%;
@@ -181,6 +225,8 @@ position: absolute;
     left: 110%;
 }
 
+/* positionering en opmaak voor het filmpje */
+
 .vid4 {
     width: 60%%;
     height: 20%;
@@ -190,6 +236,8 @@ position: absolute;
     right: 0%;
     left: 110%;
 }
+
+/* positionering en opmaak voor het filmpje */
 
 .vid5 {
     width: 60%%;
@@ -201,6 +249,8 @@ position: absolute;
     left: 110%;
 }
 
+/* positionering en opmaak voor het filmpje */
+
 .vid6 {
     width: 80%%;
     height: 60%;
@@ -210,6 +260,8 @@ position: absolute;
     right: 0%;
     left: 110%;
 }
+
+/* positionering en opmaak voor het filmpje */
 
 .vid7 {
     width: 80%%;
@@ -221,6 +273,8 @@ position: absolute;
     left: 110%;
 }
 
+/* positionering en opmaak voor het filmpje */
+
 .vid8 {
     width: 80%%;
     height: 60%;
@@ -230,3 +284,8 @@ position: absolute;
     right: 0%;
     left: 110%;
 }
+
+/* positionering en opmaak voor het filmpje */
+
+/* zoals je kan zien lijken de .vid elementen allemaal heel erg op elkaar, maar ze verschillen wel. kijk naar de top x%
+Dit heb ik zo gedaan zodat de videos allemaal een eigen positie hebben, hierdoor kunnen er 2 of meer op een pagina*/
