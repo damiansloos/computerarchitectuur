@@ -190,3 +190,13 @@ position: absolute;
     right: 0%;
     left: 115%;
 }
+
+.vid7 {
+    width: 80%%;
+    height: 60%;
+object-fit: scale-down;
+position: absolute;
+    top: 20%;
+    right: 0%;
+    left: 115%;
+}
