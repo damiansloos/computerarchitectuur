@@ -106,18 +106,6 @@ header {
     padding-bottom: 0.5%;
 }
 
-p {
-  padding-bottom: 0.5%;
-}
-
-p1 {
-  padding-bottom: 0.5%;
-  padding-left: 2.5%;
-
-h2 {
-  padding-bottom: 0.5%;
-}
-
 .textarea {
     position: relative;
     position: left 0%;
@@ -142,4 +130,13 @@ h2 {
     text-align: center;
     padding-top: 1%;
     padding-bottom: 1%
+}
+
+h2 {
+  margin-bottom: -1.5%;
+  margin-top: .5%;
+}
+
+p1 {
+  padding-left: 5%;
 }
