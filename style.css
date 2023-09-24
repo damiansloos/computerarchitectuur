@@ -150,6 +150,17 @@ p1 {
   padding-left: 5%;
 }
 
+.afb1 {
+    width: 100%;
+    height: 100%;
+object-fit: scale-down;
+position: absolute;
+    top: 0%;
+    right: 0%;
+    left: 100%;
+    z-index: -1;
+}
+
 .vid1 {
     width: 100%;
     height: 100%;
@@ -158,4 +169,4 @@ position: absolute;
     top: 40%;
     right: 0%;
     left: 100%;
-    }
+}
