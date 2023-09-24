@@ -182,11 +182,11 @@ position: absolute;
 }
 
 .vid6 {
-    width: 50%%;
-    height: 40%;
+    width: 80%%;
+    height: 60%;
 object-fit: scale-down;
 position: absolute;
     top: 20%;
     right: 0%;
-    left: 110%;
+    left: 125%;
 }
