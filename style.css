@@ -137,6 +137,11 @@ h2 {
   margin-top: .5%;
 }
 
+p {
+  padding-top: x;
+  padding-bottom: x;
+}
+
 p1 {
   padding-left: 5%;
 }
