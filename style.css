@@ -172,13 +172,13 @@ position: absolute;
 }
 
 .vid3 {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 90%;
 object-fit: scale-down;
 position: absolute;
-    top: 0%;
+    top: -25%;
     right: 0%;
-    left: 100%;
+    left: 110%;
 }
 
 .vid4 {
